@@ -49,12 +49,21 @@ a{
 }
 
 .icones ion-icon{
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 ion-icon{
     font-size: 22px;
     color: black;
+}
+
+textarea{
+    width: 215px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    text-align: center;
 }
 
 .container{
@@ -73,10 +82,11 @@ ion-icon{
 
 .stories{
     height: 118px;
-    margin-top: 88px;
+    margin-top: 34px;
     margin-bottom: 24px;
-    background-color: greenyellow;
+    background-color: yellowgreen;
     border: 1px solid #dbdbdb;
+    border-radius: 3px;
     display: flex;
     flex-wrap: inherit;
     align-items: center;
@@ -93,14 +103,25 @@ ion-icon{
     justify-content: center;
 }
 
+.background-storie{
+    width: 66px;
+    height: 66px;
+    background: url(/imagens/dogocoin.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .storie img{
-    width: 61px;
+    width: 60px;
     border-radius: 30px;
 }
 
 .storie p{
     white-space: nowrap;
     overflow-x: hidden;
+    text-align: center;
 }
 
 .conteudo{
@@ -144,7 +165,7 @@ ion-icon{
 .imgpost{
     width: 614px;
     height: 614px;
-    background-color: silver;
+    background-color: gray;
 }
 
 .iconespost{
@@ -177,7 +198,7 @@ ion-icon{
 .sidebar{
     width: 300px;
     height: 42px;
-    margin-top: 88px;
+    margin-top: 57px;
     margin-left: 24px;
     background-color: green;
 }
