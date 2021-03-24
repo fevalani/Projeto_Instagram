@@ -1,0 +1,102 @@
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e5e5e5;
+    text-decoration: none;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #dbdbdb;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.topo{
+    width: 935px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+.mini-logo{
+    width: 19,25px;
+    color: black;
+}
+
+.separador{
+    width: 1px;
+    height: 22px;
+    margin: 0 10px;
+    background-color: #dbdbdb;
+}
+
+.logo{
+    margin-right: 214px;
+}
+
+.icones{
+    margin-left: 214px;
+}
+
+.container{
+    width: 100%;
+    margin-top: 54px;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container{
+    width: 614px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stories{
+    height: 118px;
+    margin-top: 88px;
+    margin-bottom: 24px;
+    background-color: greenyellow;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.storie{
+    width: 66px;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    justify-content: center;
+}
+
+.storie img{
+    width: 61px;
+    border-radius: 30px;
+}
+
+.storie p{
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.conteudo{
+    width: 614px;
+}
+
+.sidebar{
+    width: 300px;
+    height: 42px;
+    margin-top: 88px;
+    margin-left: 24px;
+    background-color: green;
+}
