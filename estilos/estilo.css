@@ -103,6 +103,10 @@ ion-icon{
     position: relative;
 }
 
+.stories div:first-child{
+    display: flex;
+}
+
 .stories .botao-stories ion-icon{
     width: 26px;
     height: 26px;
@@ -216,6 +220,10 @@ ion-icon{
     margin-right: 8px;
 }
 
+.iconespost div a:last-child{
+    margin-right: 0;
+}
+
 .likepost{
     width: cont(100% - 30px);
     display: flex;
@@ -278,40 +286,42 @@ ion-icon{
 
 .seguidor{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     font-size: 12px;
 }
 
-.seguidor div:first-child{
+.seguidores{
     width: 100%;
     display: flex;
     align-items: center;
     margin-bottom: 17px;
+    justify-content: space-between;
 }
 
-.seguidor div img{
+.seguidores div:first-child{
+    display: flex;
+}
+
+.seguidor img{
     width: 32px;
     height: 32px;
     border-radius: 50%;
     margin-right: 11px;
 }
 
-.seguidor div div p:first-child{
+.seguidores p:first-child{
     font-size: 14px;
     margin-bottom: 6px;
 }
 
-.seguidor div div p:last-child{
+.seguidores p:last-child{
     font-size: 12px;
     color: #8e8e8e;
 
 }
 
-.seguidor div p1{
+.seguidor p1{
     color: #139ef2;
+    font-weight: bold;
 }
 
 .sobre{
