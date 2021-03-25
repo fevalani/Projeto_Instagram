@@ -31,8 +31,17 @@ a{
     width: 935px;
     height: 54px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: red;
+}
+
+.topo-mobile{
+    display: none;
+}
+
+.bottom-mobile{
+    display: none;
 }
 
 .mini-logo{
@@ -47,10 +56,9 @@ a{
     background-color: #dbdbdb;
 }
 
-.logo{
-    margin-right: 214px;
+.topo div:first-child{
+    display: flex;
 }
-
 .topo input{
     width: 215px;
     height: 28px;
@@ -59,10 +67,6 @@ a{
     box-sizing: border-box;
     border-radius: 3px;
     text-align: center;
-}
-
-.icones{
-    margin-left: 180px;
 }
 
 .icones ion-icon{
@@ -337,4 +341,76 @@ ion-icon{
     font-size: 11px;
     color: #c7c7c7;
     line-height: 13px;
+}
+
+@media(max-width: 935px){
+
+    .sidebar{
+        display: none;
+    }
+    .topo{
+        width: 100%;
+    }
+}
+
+@media(max-width: 614px){
+
+    .sidebar{
+        display: none;
+    }
+
+    .topo{
+        display: none;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .sub-container{
+        width: 100%;
+    }
+
+    .topo-mobile{
+        padding: 16px 20px 8px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .stories{
+        width: 100%;
+        margin: 0;
+        background-color: transparent;
+    }
+
+    .conteudo{
+        width: 100%;
+    }
+
+    .imgpost{
+        width: 100%;
+    }
+
+    .imgpost img{
+        width: 100%;
+    }
+
+    .bottom-mobile{
+        width: 100vw;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+    }
+
+    .botao-stories{
+        display: none;
+    }
+
+
 }
