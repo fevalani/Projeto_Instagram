@@ -7,6 +7,7 @@
 
 a{
     text-decoration: none;
+    z-index: 0;
 }
 
 .top{
@@ -25,7 +26,8 @@ a{
     height: 54px;
     display: flex;
     align-items: center;
-    background-color: red;
+    background-color: green;
+    z-index: 1;
 }
 
 .mini-logo{
@@ -45,16 +47,17 @@ a{
 }
 
 .icones{
-    margin-left: 214px;
+    margin-left: 150px;
 }
 
 .icones ion-icon{
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 ion-icon{
     font-size: 22px;
     color: black;
+    z-index: 0;
 }
 
 textarea{
@@ -106,16 +109,17 @@ textarea{
 .background-storie{
     width: 66px;
     height: 66px;
-    background: url(/imagens/dogocoin.svg);
+    background-image: url(../imagens/stories_background.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.storie img{
-    width: 60px;
-    border-radius: 30px;
+.storie a img{
+    width: 55px;
+    border-radius: 50%;
+    padding-top: 3px;
 }
 
 .storie p{
@@ -126,13 +130,14 @@ textarea{
 
 .conteudo{
     width: 614px;
-    margin-bottom: 60px;
 }
 
 .post{
     width: 100%;
     background-color: red;
     height: 749px;
+    margin-bottom: 60px;
+    z-index: 0;
 }
 
 .toppost{
@@ -195,10 +200,21 @@ textarea{
     border-radius: 11px;
     margin-right: 5px;
 }
+
 .sidebar{
     width: 300px;
     height: 42px;
     margin-top: 57px;
     margin-left: 24px;
+    border: 1px solid black;
+}
+
+.sidebar-fix{
+    display: none;
+    width: 300px;
+    height: 42px;
+    top: 111px;
+    left: 900px;
     background-color: green;
+    position: fixed;
 }
