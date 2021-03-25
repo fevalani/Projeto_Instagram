@@ -3,11 +3,16 @@
     flex-wrap: wrap;
     background-color: #e5e5e5;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-decoration-color: #262626;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
 }
 
 a{
     text-decoration: none;
-    z-index: 0;
 }
 
 .top{
@@ -19,6 +24,7 @@ a{
     left: 0;
     top: 0;
     background-color: honeydew;
+    z-index: 1;
 }
 
 .topo{
@@ -27,7 +33,6 @@ a{
     display: flex;
     align-items: center;
     background-color: green;
-    z-index: 1;
 }
 
 .mini-logo{
@@ -46,8 +51,18 @@ a{
     margin-right: 214px;
 }
 
+.topo input{
+    width: 215px;
+    height: 28px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    text-align: center;
+}
+
 .icones{
-    margin-left: 150px;
+    margin-left: 180px;
 }
 
 .icones ion-icon{
@@ -58,15 +73,6 @@ ion-icon{
     font-size: 22px;
     color: black;
     z-index: 0;
-}
-
-textarea{
-    width: 215px;
-    background: #FAFAFA;
-    border: 1px solid #DBDBDB;
-    box-sizing: border-box;
-    border-radius: 3px;
-    text-align: center;
 }
 
 .container{
@@ -94,12 +100,22 @@ textarea{
     flex-wrap: inherit;
     align-items: center;
     overflow-x: hidden;
+    position: relative;
+}
+
+.stories .botao-stories ion-icon{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 8px;
+    top: 46px;
+    color: #fff;
 }
 
 .storie{
     width: 66px;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 14px;
+    margin-right: 14px;
     display: flex;
     flex-wrap: wrap;
     overflow-x: hidden;
@@ -117,14 +133,18 @@ textarea{
 }
 
 .storie a img{
-    width: 55px;
+    width: 58px;
+    height: 58px;
     border-radius: 50%;
     padding-top: 3px;
 }
 
 .storie p{
-    white-space: nowrap;
-    overflow-x: hidden;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
     text-align: center;
 }
 
@@ -134,9 +154,11 @@ textarea{
 
 .post{
     width: 100%;
-    background-color: red;
+    background-color: #fff;
     height: 749px;
     margin-bottom: 60px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
     z-index: 0;
 }
 
@@ -160,6 +182,9 @@ textarea{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .conteudotoppost img{
@@ -171,6 +196,11 @@ textarea{
     width: 614px;
     height: 614px;
     background-color: gray;
+}
+
+.imgpost img{
+    width: 613px;
+    height: 613px;
 }
 
 .iconespost{
@@ -203,18 +233,98 @@ textarea{
 
 .sidebar{
     width: 300px;
-    height: 42px;
+    height: 100%;
     margin-top: 57px;
-    margin-left: 24px;
+    margin-left: 25px;
     border: 1px solid black;
 }
 
-.sidebar-fix{
-    display: none;
-    width: 300px;
-    height: 42px;
-    top: 111px;
-    left: 900px;
-    background-color: green;
-    position: fixed;
+.perfil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.perfil img{
+    width: 56px;
+    height: 56px;
+    margin-right: 17px;
+    border-radius: 50%;
+}
+
+.perfil p{
+    font-size: 14px;
+}
+
+.perfil p:last-child{
+    font-weight: 300;
+}
+
+.sugestao{
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+
+.sugestao p:first-child{
+    color: #8e8e8e;
+}
+
+.sugestao p:last-child{
+    font-weight: bold;
+}
+
+.seguidor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.seguidor div:first-child{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.seguidor div img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+
+.seguidor div div p:first-child{
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.seguidor div div p:last-child{
+    font-size: 12px;
+    color: #8e8e8e;
+
+}
+
+.seguidor div p1{
+    color: #139ef2;
+}
+
+.sobre{
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 11px;
+    color: #c7c7c7;
+    margin-top: 33px;
+    margin-bottom: 18px;
+}
+
+.ig{
+    font-size: 11px;
+    color: #c7c7c7;
+    line-height: 13px;
 }
