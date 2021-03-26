@@ -251,39 +251,39 @@ ion-icon{
     margin-right: 5px;
 }
 
-.coments{
+.comments{
     width: cont(100% - 20px);
     padding: 0 20px;
 }
 
-.coments p:nth-child(2){
+.comments p:nth-child(2){
     font-weight: lighter;
 }
 
-.coments p:last-child{
+.comments p:last-child{
     font-size: 10px;
     font-weight: lighter;
 }
 
-.coments p{
+.comments p{
     margin-bottom: 5px;
 }
 
-.coments div{
+.comments div{
     display: flex;
     justify-content: space-between;
 }
 
-.coments ion-icon{
+.comments ion-icon{
     width: 15px;
 }
 
-.add-coments{
+.add-comments{
     width: 100%;
     margin-bottom: 5px;
 }
 
-.add-coments input:first-child{
+.add-comments input:first-child{
     width: 78%;
     height: 25px;
     margin-left: 15px;
@@ -292,7 +292,7 @@ ion-icon{
     color: gray;
 }
 
-.add-coments input:last-child{
+.add-comments input:last-child{
     width: 18%;
     height: 25px;
     background-color: transparent;
@@ -301,7 +301,7 @@ ion-icon{
     color: #B2DFFC;
 }
 
-.add-coments input:last-child:hover{
+.add-comments input:last-child:hover{
     transition: margin-left 300ms;
     color: #0095f6;
 }
