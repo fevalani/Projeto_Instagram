@@ -281,10 +281,12 @@ ion-icon{
 .add-comments{
     width: 100%;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .add-comments input:first-child{
-    width: 78%;
+    width: 100%;
     height: 25px;
     margin-left: 15px;
     border: none;
@@ -293,8 +295,8 @@ ion-icon{
 }
 
 .add-comments input:last-child{
-    width: 18%;
     height: 25px;
+    margin: 0 15px;
     background-color: transparent;
     border: none;
     font-weight: bold;
