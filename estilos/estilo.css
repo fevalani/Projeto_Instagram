@@ -19,21 +19,21 @@ a{
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 54px;
     border-bottom: 1px solid #dbdbdb;
     position: fixed;
     left: 0;
     top: 0;
-    background-color: honeydew;
+    background-color: #fff;
     z-index: 1;
 }
 
 .topo{
     width: 935px;
-    height: 54px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    background-color: #fff;
 }
 
 .topo-mobile{
@@ -97,7 +97,7 @@ ion-icon{
     height: 118px;
     margin-top: 34px;
     margin-bottom: 24px;
-    background-color: yellowgreen;
+    background-color: #fff;
     border: 1px solid #dbdbdb;
     border-radius: 3px;
     display: flex;
@@ -138,6 +138,7 @@ ion-icon{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
 
 .storie a img{
@@ -163,11 +164,11 @@ ion-icon{
 .post{
     width: 100%;
     background-color: #fff;
-    height: 749px;
     margin-bottom: 60px;
     border: 1px solid #dbdbdb;
     border-radius: 3px;
     z-index: 0;
+    padding-bottom: 10px;
 }
 
 .toppost{
@@ -201,19 +202,21 @@ ion-icon{
 }
 
 .imgpost{
-    width: 614px;
-    height: 614px;
-    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgpost img{
-    width: 613px;
-    height: 613px;
+    width: 100%;
+}
+.imgpost video{
+    width: 100%;
 }
 
 .iconespost{
     width: cont(100% - 30px);
-    background-color: green;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -248,7 +251,14 @@ ion-icon{
     height: 100%;
     margin-top: 57px;
     margin-left: 25px;
-    border: 1px solid black;
+}
+
+.sidebartop{
+    display: none;
+    visibility: hidden;
+    width: 300px;
+    margin-top: 57px;
+    margin-left: 25px;
 }
 
 .perfil{
@@ -348,6 +358,9 @@ ion-icon{
     .sidebar{
         display: none;
     }
+    .sidebartop{
+        display: none;
+    }
     .topo{
         width: 100%;
     }
@@ -407,6 +420,15 @@ ion-icon{
         left: 0;
         background-color: #fff;
     }
+
+    .bottom-mobile ion-icon:first-child{
+        margin-left: 15px;
+    }
+
+    .bottom-mobile ion-icon:last-child{
+        margin-right: 15px;
+    }
+
 
     .botao-stories{
         display: none;
