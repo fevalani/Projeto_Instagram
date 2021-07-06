@@ -8,12 +8,12 @@
 </p>
 
 <h4 align="center"> 
-	 Status: Delivered.
+	 Status: Entregue.
 </h4>
 
 ## Sobre
 
-Projeto Instagram, segundo projeto realizado durante o ** Bootcamp Responde Aí ** do [Responde Aí](https://www.respondeai.com.br/). <br>
+Segundo projeto realizado durante o ** Bootcamp Responde Aí ** do [Responde Aí](https://page.respondeai.com.br/bootcamp). <br>
 O foco deste projeto é desenvolver ainda mais as habilidades de Front End usando HTML5 e CSS3.
 
 ---
@@ -46,7 +46,7 @@ O layout da aplicação se encontra no Figma:
 
 <p align="center">
   <img alt="Desktop Homepage" title="#Homepage" src="imagens/readme.png" width="400px" height="355px">
-  <img alt="Desktop Homepage" title="#Homepage" src="imagens/readme2.png" width="200px" height="355px">
+  <img alt="Desktop Homepage" title="#Homepage" src="imagens/readme2.png" width="400px" height="355px">
 </p>
 
 ### Mobile
